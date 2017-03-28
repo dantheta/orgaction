@@ -1,0 +1,61 @@
+
+#footer-wrapper {
+    background-color: #231f20;
+    color: #fff;
+}
+
+footer * .caps {
+    text-transform: uppercase;
+}
+
+footer {
+    padding-top: 1em !important;
+}
+
+footer * a {
+    color: white !important;
+    text-decoration: none;
+}
+
+footer .two {
+    float: left;
+    clear: left;
+    font-weight: bold;
+}
+
+footer .fourteen {
+    margin-left: 10em;
+}
+
+footer .columns {
+    margin-bottom: 0.75em;
+}
+
+footer .right {
+    text-align: right;
+}
+
+header {
+    background: #BF2026 !important;
+    border-bottom: 1px solid #dddcd8;
+}
+
+#logo {
+    background: #BF2026 !important;
+}
+
+a, a:link {
+    color: #BF2026;
+}
+
+input[type="submit"], #edit-submit, a.button, .button {
+    border: 2px solid #a91c22;
+    background: #BF2026 repeat-x top;
+}
+
+input[type="submit"]:hover, #edit-submit:hover, .button:hover, a.button:hover, input[type="submit"]:focus, #edit-submit:focus, .button:focus, a.button:focus, .button_focus, .ui-body-o a.button:hover, .ui-body-o a.button:focus {
+    background: repeat #d5242a !important;
+    border-color: #BF2026 !important;
+
+    color: #fff;
+}

@@ -1,0 +1,31 @@
+
+name = orgaction
+description = ORG theme for campaignon
+base theme = simplicity
+
+core = 7.x
+
+
+; Regions --------------------------------------------------------------------
+; these content regions are available for block placement
+
+; these are the stock regions
+regions[top_bar] = Top bar
+regions[header] = Header
+regions[help] = Help
+regions[banner] = Banner
+regions[featured] = Featured
+
+regions[content_top] = Content top
+regions[content] = Content
+regions[content_bottom] = Content bottom
+
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+
+regions[bottom] = Bottom
+regions[footer] = Footer
+
+regions[widget] = Widget
+
+stylesheets[screen][] = css/orgaction.css
