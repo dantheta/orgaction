@@ -126,9 +126,6 @@
   <div id="main-wrapper">
 
     <div id="main" class="clearfix middle">
-        <?php if ($breadcrumb): ?>
-          <div id="breadcrumb"><?php print $breadcrumb; ?></div>
-        <?php endif; ?>
         <?php print render($title_prefix); ?>
         <?php if ($title): ?>
         <div id="headerwrap"><h1 class="title" id="page-title"><?php print $title; ?></h1></div>
@@ -192,7 +189,7 @@
   <footer id="footer" role="contentinfo">
 
     <div class="section middle">
-    
+
        <?php if ($secondary_menu): ?>
       <nav id="secondary-menu" role="navigation">
         <h2 class="element-invisible"><?php echo t('Secondary menu'); ?></h2>
