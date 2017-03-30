@@ -1,5 +1,5 @@
 
-#footer-wrapper {
+#footer {
     background-color: #231f20;
     color: #fff;
 }
@@ -40,8 +40,9 @@ header {
     border-bottom: 1px solid #dddcd8;
 }
 
-#logo {
+#header #logo {
     background: #BF2026 !important;
+    border: 0px !important;
 }
 
 a, a:link {
