@@ -1,3 +1,154 @@
+/*Typeface*/
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(//fonts.gstatic.com/s/lato/v11/1bHRUMxmJHoup12DnI9XmQ.woff) format('woff');
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    font-family: Lato, 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans;
+    color: #303030;
+}
+
+pre,
+code,
+kbd,
+samp {
+    font-family: Lato, 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans;
+    _font-family: Lato, 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans;
+    font-size: 100%;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+.form-text input,
+.form-type-password input,
+textarea,
+select,
+.selecter .selecter-selected {
+    font-size: 120%;
+    background-color: #fff;
+    border: 1px solid #cccccc;
+    font-family: Lato, 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans;
+    font-weight: normal;
+    color: #303030;
+    padding: .5em;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lato, 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.33333333;
+    background: #fff;
+}
+h1 {
+    font-size: 1.33333333em;
+    line-height: 1em;
+    margin-bottom: 1em;
+    font-weight: 300;
+    color: #BF2026;
+    clear: left;
+    display: block;
+    word-wrap: break-word;
+    font-family: Lato, 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans;
+}
+
+h2 {
+    font-size: 1.11111111em;
+    line-height: 1.2em;
+    margin-bottom: 1.2em;
+    font-weight: normal;
+    font-family: Lato, 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans;
+    color: #a91c22;
+}
+#main-menu a,
+#main-menu a:visited {
+    font-weight: normal;
+    font-family: Lato, 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans;
+    color: #808080;
+    text-decoration: none;
+    display: block;
+    padding: .5em 5%;
+    background-color: #ffffff;
+    border-color: #d9d9d9;
+}
+
+#main-menu .menu .menu a {
+    background: #fff;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #d9d9d9;
+    text-transform: none;
+    font-family: Lato, 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans;
+    color: #303030;
+}
+
+.with-mobile-menu #mobile-menu-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    background: url(/sites/open-rights-group/themes/contrib/simplicity/css/images/mobile-menu-icon.png) no-repeat 2px center transparent;
+    text-decoration: none;
+    font-family: Lato, 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans;
+    color: #565456;
+    font-weight: normal;
+    font-style: normal;
+    z-index: 401;
+    display: block;
+    float: right;
+    clear: right;
+}
+
+#header #main-menu li a,
+    #header #main-menu li a:visited {
+        text-transform: none;
+        font-family: Lato, 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans;
+        padding: 0.9em 0.8em;
+        font-weight: normal;
+        border: 1px solid transparent;
+        border-bottom: none;
+        text-decoration: none;
+        color: #515151;
+        font-size: 100%;
+        display: block;
+        background-color: transparent;
+    }
+
+    body.maintenance-page {
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans;
+    font-weight: normal;
+    color: #303030;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+.maintenance-page h1 {
+    color: #cc0033;
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans;
+    font-weight: bold;
+    font-size: 2.8125em;
+    line-height: 1.0667em;
+    margin-bottom: 0.5333em;
+    clear: left;
+    display: block;
+    word-wrap: break-word;
+    max-width: 900px;
+}
+
+
+
 
 #footer {
     background-color: #231f20;
@@ -78,4 +229,37 @@ div.error, .error {
 
 .form-item input.error, .form-item textarea.error, .form-item select.error, .form-item select.error + .selecter .selecter-selected, .form-item input.error + .picker .picker-handle {
     border: 2px solid #BF2026;
+}
+
+.progress-bar {
+        font-size: 1.2em;
+        line-height: 2.5;
+        background-color: #BF2026;
+        color: #ffffff;
+        height: 100%;
+        border-radius: 5px;
+        text-align: center;
+    }
+    
+.progress {
+        background-color: #f5f5f5;
+        border-radius: 0px;
+        padding: 5px;
+    }
+
+.header::before {
+    display: inline-block;
+    margin: 0 5px 6px -20px;
+    content: " ";
+    height: 3px;
+    width: 15%;
+    background-color: #BF2026;
+}
+.header::after {
+    display: inline-block;
+    margin: 0 -20px 6px 5px;
+    content: " ";
+    height: 3px;
+    width: 15%;
+    background-color: #BF2026;
 }
