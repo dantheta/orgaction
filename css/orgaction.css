@@ -186,7 +186,7 @@ footer .right {
     text-align: right;
 }
 
-header {
+#header {
     background: #BF2026 !important;
     border-bottom: 1px solid #dddcd8;
 }
