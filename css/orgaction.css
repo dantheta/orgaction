@@ -240,13 +240,15 @@ div.error, .error {
         border-radius: 5px;
         text-align: center;
     }
-    
+
 .progress {
         background-color: #f5f5f5;
         border-radius: 0px;
         padding: 5px;
     }
-
+.header {
+  text-align: center;
+}
 .header::before {
     display: inline-block;
     margin: 0 5px 6px -20px;
