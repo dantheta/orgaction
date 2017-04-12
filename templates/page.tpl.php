@@ -131,6 +131,19 @@
         <div id="headerwrap"><h1 class="title" id="page-title"><?php print $title; ?></h1></div>
         <?php endif; ?>
         <?php print render($title_suffix); ?>
+      <?php if (@$page['intro']): ?>
+        <div class="section">
+          <?php print render($page['intro']); ?>
+        </div> <!-- /.section -->
+      <?php endif ?>
+
+      <?php if ($page['sidebar_second']): ?>
+        <aside id="sidebar-second" class="column sidebar" role="complementary">
+          <div class="section">
+          <?php print render($page['sidebar_second']); ?>
+          </div><!-- /.section -->
+        </aside><!-- /#sidebar-second -->
+      <?php endif; ?>
 
       <div id="content" class="column" role="main">
         <div class="section">
@@ -159,13 +172,6 @@
         </aside><!-- /#sidebar-first -->
       <?php endif; ?>
 
-      <?php if ($page['sidebar_second']): ?>
-        <aside id="sidebar-second" class="column sidebar" role="complementary">
-          <div class="section">
-          <?php print render($page['sidebar_second']); ?>
-          </div><!-- /.section -->
-        </aside><!-- /#sidebar-second -->
-      <?php endif; ?>
 
     </div><!-- /#main -->
   </div><!-- /#main-wrapper -->
