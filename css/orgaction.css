@@ -322,3 +322,7 @@ body {
     background-color: black !important;
     border: none !important;
 }
+
+p {
+    font-size: 18px
+}
