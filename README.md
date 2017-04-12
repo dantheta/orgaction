@@ -30,3 +30,7 @@ Go to structure & appearance -> blocks, select "add block".  Add a description.
 In the editor, click the "Source" button, and paste in the footer from the html file in the git repo.
 
 In the region settings, open the dropdown for the current theme and choose "footer".
+
+## Tracker
+
+This code can be pasted into a new block, which can then be assigned to the footer region.  Since the markup might not pass safely through the MCE editor, using the source button (or changing the block to the "plain text" or "full HTML" types may be required.
