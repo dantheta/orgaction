@@ -216,6 +216,7 @@ a.button:focus,
 .ui-body-o a.button:focus {
     background: repeat #d5242a !important;
     border-color: #BF2026 !important;
+    border-radius: 5px;
     color: #fff;
 }
 
