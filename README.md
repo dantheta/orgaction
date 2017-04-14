@@ -34,3 +34,9 @@ In the region settings, open the dropdown for the current theme and choose "foot
 ## Tracker
 
 This code can be pasted into a new block, which can then be assigned to the footer region.  Since the markup might not pass safely through the MCE editor, using the source button (or changing the block to the "plain text" or "full HTML" types may be required.
+
+## Further Actions
+
+This block should be created with the Full HTML text format, and pasted in source mode.  Select "Content Bottom" for the region, and restrict this block to pages that match "thanks*" URLs.
+
+
