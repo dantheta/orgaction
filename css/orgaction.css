@@ -83,12 +83,11 @@ h1 {
 }
 
 h2 {
-    font-size: 1.11111111em;
-    line-height: 1.2em;
     margin-bottom: 1.2em;
-    font-weight: normal;
-    font-family: Lato, 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans;
-    color: #a91c22;
+    font-size: 29px;
+    font-weight: 900;
+    line-height: 35px;
+    color: #bf2026;
 }
 
 #main-menu a,
