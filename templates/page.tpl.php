@@ -68,7 +68,7 @@
  * @see template_process()
  */
 ?>
-<link href="https://www.openrightsgroup.org/assets/site/action/css/external.css" rel="stylesheet" />
+
 <div id="page-wrapper">
 
   <div id="page">
