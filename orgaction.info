@@ -30,4 +30,4 @@ regions[footer] = Footer
 regions[widget] = Widget
 
 stylesheets[screen][] = css/orgaction.css
-stylesheets[screen][] = http://www.openrightsgroup.org/assets/site/action/css/external.css
+
