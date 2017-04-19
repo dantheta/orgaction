@@ -1,3 +1,7 @@
+/* import external stylesheet for last-minute updates */
+
+@import url("https://www.openrightsgroup.org/assets/site/action/css/external.css");
+
 /*Typeface*/
 
 @font-face {
