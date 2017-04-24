@@ -428,3 +428,12 @@ blockquote:before {
     margin-right: 0.25em;
     vertical-align: -0.4em;
 }
+
+.node-teaser .node-readmore a, .node-teaser .node-readmore a:hover, .node-teaser .node-readmore a:focus {
+    background: #bf2026 repeat-x top;
+    border: 2px solid #bf2026;
+}
+
+.pgbar-current {
+  background-color: #bf2026;
+}
