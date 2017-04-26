@@ -37,4 +37,8 @@ In the region settings, open the dropdown for the current theme and choose "foot
 
 This block should be created with the Full HTML text format, and pasted in source mode.  Select "Content Bottom" for the region, and restrict this block to pages that match "thanks*" URLs.
 
+## Summary view
+
+This view block is used to position a short piece of introductory text (the node summary) above the content in desktop view, and ahead of the petition/survey action in mobile view.  It can be imported through the Views UI.
+
 
