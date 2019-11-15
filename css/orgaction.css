@@ -437,3 +437,20 @@ blockquote:before {
 .pgbar-current {
   background-color: #bf2026;
 }
+
+/* Styles to dim down the remove button on file upload */
+input[id$=remove-button] {
+  text-shadow: none;
+  font-weight: normal;
+  font-size: 100%;
+  color: #636363;
+  border: 1px solid #b4b1ae;
+  background: #e5e4e3;
+  padding: .5em 1em;
+}
+
+input[id$=remove-button]:hover, input[id$=remove-button]:focus {
+  background: #cccbc9 !important;
+  border: 1px solid #b4b1ae !important;
+  color: #636363 !important;
+}
