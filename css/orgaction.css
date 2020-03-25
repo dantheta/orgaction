@@ -4,42 +4,34 @@
 
 /*Typeface*/
 
-@font-face {
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Lato Regular'), local('Lato-Regular'), url(//fonts.gstatic.com/s/lato/v11/1bHRUMxmJHoup12DnI9XmQ.woff) format('woff');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Roboto+Slab&display=swap');
+
+* {
+    font-family: "Roboto Slab", serif;
 }
 
-/* @import url("https://www.openrightsgroup.org/assets/site/org/fonts/Lato/stylesheet.css"); */
+h1, h2, h3, h4 {
 
-@font-face {
-    font-family: 'LatoBold';
-    src: url('https://www.openrightsgroup.org/assets/site/org/fonts/Lato/Lato-Bol-webfont.eot');
-    src: url('https://www.openrightsgroup.org/assets/site/org/fonts/Lato/Lato-Bol-webfont.eot?#iefix') format('embedded-opentype'),
-         url('https://www.openrightsgroup.org/assets/site/org/fonts/Lato/Lato-Bol-webfont.woff') format('woff'),
-         url('https://www.openrightsgroup.org/assets/site/org/fonts/Lato/Lato-Bol-webfont.ttf') format('truetype'),
-         url('https://www.openrightsgroup.org/assets/site/org/fonts/Lato/Lato-Bol-webfont.svg#LatoBold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+    font-family: "Fjalla One", sans-serif;
 }
 
 body,
 button,
 input,
 select,
+pre,
+code,
+kbd,
+samp,
 textarea {
-    font-family: Lato, 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans;
     color: #303030;
 }
 
 pre,
 code,
 kbd,
-samp {
-    font-family: Lato, 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans;
-    _font-family: Lato, 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans;
+samp 
+{
     font-size: 100%;
 }
 
@@ -56,7 +48,6 @@ select,
     font-size: 120%;
     background-color: #fff;
     border: 1px solid #cccccc;
-    font-family: Lato, 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans;
     font-weight: normal;
     color: #303030;
     padding: .5em;
@@ -67,7 +58,6 @@ select,
 }
 
 body {
-    font-family: Lato, 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans;
     font-weight: normal;
     font-size: 1em;
     line-height: 1.33333333;
@@ -79,11 +69,10 @@ h1 {
     line-height: 1em;
     margin-bottom: 1em;
     font-weight: 300;
-    color: #BF2026;
+    color: #FC4348;
     clear: left;
     display: block;
     word-wrap: break-word;
-    font-family: Lato, 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans;
 }
 
 h2 {
@@ -91,13 +80,12 @@ h2 {
     font-size: 29px;
     font-weight: 900;
     line-height: 35px;
-    color: #bf2026;
+    color: #FC4348;
 }
 
 #main-menu a,
 #main-menu a:visited {
     font-weight: normal;
-    font-family: Lato, 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans;
     color: #808080;
     text-decoration: none;
     display: block;
@@ -111,7 +99,6 @@ h2 {
     border: 1px solid transparent;
     border-bottom: 1px solid #d9d9d9;
     text-transform: none;
-    font-family: Lato, 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans;
     color: #303030;
 }
 
@@ -123,7 +110,6 @@ h2 {
     height: 40px;
     background: url(/sites/open-rights-group/themes/contrib/simplicity/css/images/mobile-menu-icon.png) no-repeat 2px center transparent;
     text-decoration: none;
-    font-family: Lato, 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans;
     color: #565456;
     font-weight: normal;
     font-style: normal;
@@ -136,7 +122,6 @@ h2 {
 #header #main-menu li a,
 #header #main-menu li a:visited {
     text-transform: none;
-    font-family: Lato, 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans;
     padding: 0.9em 0.8em;
     font-weight: normal;
     border: 1px solid transparent;
@@ -149,7 +134,6 @@ h2 {
 }
 
 body.maintenance-page {
-    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans;
     font-weight: normal;
     color: #303030;
     font-size: 1em;
@@ -158,7 +142,6 @@ body.maintenance-page {
 
 .maintenance-page h1 {
     color: #cc0033;
-    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans;
     font-weight: bold;
     font-size: 2.8125em;
     line-height: 1.0667em;
@@ -208,7 +191,7 @@ footer .right {
 a,
 a:link,
 a:visited {
-    color: #BF2026;
+    color: #FC4348;
 }
 
 input[type="submit"],
@@ -216,7 +199,7 @@ input[type="submit"],
 a.button,
 .button {
     border: 2px solid #a91c22;
-    background: #BF2026 repeat-x top;
+    background: #FC4348 repeat-x top;
 }
 
 input[type="submit"]:hover,
@@ -232,7 +215,7 @@ a.button:focus,
 .ui-body-o a.button:hover,
 .ui-body-o a.button:focus {
     background: repeat #d5242a !important;
-    border-color: #BF2026 !important;
+    border-color: #FC4348 !important;
     border-radius: 5px;
     color: #fff;
 }
@@ -241,7 +224,7 @@ h1,
 h2,
 h4,
 legend {
-    color: #BF2026;
+    color: #FC4348;
 }
 
 .form-textarea-wrapper textarea {
@@ -250,12 +233,12 @@ legend {
 
 .marker,
 .form-required {
-    color: #BF2026;
+    color: #FC4348;
 }
 
 div.error,
 .error {
-    color: #BF2026;
+    color: #FC4348;
 }
 
 .form-item input.error,
@@ -263,13 +246,13 @@ div.error,
 .form-item select.error,
 .form-item select.error+.selecter .selecter-selected,
 .form-item input.error+.picker .picker-handle {
-    border: 2px solid #BF2026;
+    border: 2px solid #FC4348;
 }
 
 .progress-bar {
     font-size: 1.2em;
     line-height: 2.5;
-    background-color: #BF2026;
+    background-color: #FC4348;
     color: #ffffff;
     height: 100%;
     border-radius: 5px;
@@ -292,7 +275,7 @@ div.error,
     content: " ";
     height: 3px;
     width: 15%;
-    background-color: #BF2026;
+    background-color: #FC4348;
 }
 
 .header::after {
@@ -301,7 +284,7 @@ div.error,
     content: " ";
     height: 3px;
     width: 15%;
-    background-color: #BF2026;
+    background-color: #FC4348;
 }
 
 h1#page-title {
@@ -311,7 +294,7 @@ h1#page-title {
 
 #page-title {
     color: white;
-    background-color: #bf2026;
+    background-color: #FC4348;
     padding: 30px;
 }
 
@@ -332,14 +315,20 @@ body {
 }
 
 #header {
-    background: black !important;
+    background: #191818 !important;
     border: none;
     margin-bottom: 5px;
+    min-height: 96px;
 }
 
 #header a#logo {
-    background-color: black !important;
+    background-color: #191818 !important;
     border: none !important;
+}
+
+#logo img {
+    margin-top: 16px;
+    height: 64px;
 }
 
 p {
@@ -357,7 +346,6 @@ p {
    margin-bottom: 10px;
    border: none;
    font-size: 22px;
-   font-family: "LatoBold";
    font-weight: 400;
    line-height: 1.333em;
    clear: both;
@@ -372,7 +360,7 @@ p {
 }
 
 .text_subcontent {
-   color: #bf2026;
+   color: #FC4348;
 }
 
 .panel .panel {
@@ -399,7 +387,7 @@ p {
 }
 
 .panel a {
-  color: black;
+  color: #191818;
   text-decoration: none;
 }
 
@@ -409,6 +397,10 @@ p {
 
 .panel a.button:hover {
   text-decoration: none;
+}
+
+body {
+    background-color: #272727;
 }
 
 /* blockquote */
@@ -430,10 +422,10 @@ blockquote:before {
 }
 
 .node-teaser .node-readmore a, .node-teaser .node-readmore a:hover, .node-teaser .node-readmore a:focus {
-    background: #bf2026 repeat-x top;
-    border: 2px solid #bf2026;
+    background: #FC4348 repeat-x top;
+    border: 2px solid #FC4348;
 }
 
 .pgbar-current {
-  background-color: #bf2026;
+  background-color: #FC4348;
 }
