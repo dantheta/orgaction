@@ -249,24 +249,31 @@ div.error,
     border: 2px solid #FC4348;
 }
 
-div.webform-component-radios.donation-amount .checked label.option
-div.webform-component-select.donation-amount .checked label.option
+div.webform-component-radios.donation-amount .checked label.option,
+div.webform-component-select.donation-amount .checked label.option,
 div.webform-component-select-or-other.donation-amount .checked label.option {
-    background-color: #FC4348;
-    border: 1px solid #FC4348;
+    background-color: #FC4348 ;
+    border: 1px solid #FC4348 ;
 
 }
 
-div.webform-component-radios.donation-amount label.option:hover
-div.webform-component-select.donation-amount label.option:hover
 div.webform-component-select-or-other.donation-amount label.option:hover
-div.webform-component-radios.donation-amount label.option:focus
-div.webform-component-select.donation-amount label.option:focus
-div.webform-component-select-or-other.donation-amount label.option:focus
 {
-    background-color: #FC4348AA;
-    border: 1px solid #FC4348;
+    background-color: #FC4348AA ;
+    border: 1px solid #FC4348 ;
 }
+
+div.webform-component-select-or-other.donation-amount .other-amount label.option:hover
+{
+    background-color: transparent;
+    border: none;
+}
+div.webform-component-select-or-other.donation-amount .other-amount .checked label.option
+{
+    background-color: transparent;
+    border: none;
+}
+
 
 .progress-bar {
     font-size: 1.2em;
