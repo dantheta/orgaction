@@ -85,21 +85,21 @@ $html_attributes = "lang=\"{$language->language}\" dir=\"{$language->dir}\" {$rd
   </script>
   <?php endif; ?>
 
-<!-- Piwik -->
+<!-- Matomo -->
 <script type="text/javascript">
-var pkBaseURL = "https://bug.openrightsgroup.org/piwik/";
-document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+  var _paq = window._paq || [];
+  _paq.push(['disableCookies']);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//bug.openrightsgroup.org/matomo/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', 19]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
 </script>
-<script type="text/javascript">
-try {
-var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 19);
-piwikTracker.disableCookies();
-piwikTracker.trackPageView();
-piwikTracker.enableLinkTracking();
-} catch( err ) {}
-</script>
-<noscript><p><img src="https://bug.openrightsgroup.org/piwik/piwik.php?idsite=19" style="border:0" alt="" /></p></noscript>
-<!-- End Piwik Tracking Code -->
+<!-- End Matomo Code -->
 
 <!-- Start of moreonion Zendesk Widget script -->
 <?php if(user_is_logged_in()): ?>
